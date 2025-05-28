@@ -2,7 +2,7 @@
 
 **Panchāstra** is a powerful and elegant web-based interface for controlling a 5-axis robotic arm. Designed for intuitive use and visually striking interaction, this controller allows users to manage each motor joint, perform inverse kinematics, visualize real-time arm motion, and orchestrate complex movement sequences with ease.
 
-![Panchastra Interface Screenshot](preview.png)
+![Panchastra Interface Screenshot](robot.png)
 
 ---
 
