@@ -1,1 +1,1 @@
-# Panch-stra-
+# Panchastra
