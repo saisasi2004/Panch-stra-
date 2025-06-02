@@ -626,10 +626,10 @@
                             <div class="angle-display" id="gripperAngle">0°</div>
                         </div>
                         <div class="slider-container">
-                            <input type="range" class="slider" id="gripper" min="0" max="90" value="0">
+                            <input type="range" class="slider" id="gripper" min="0" max="180" value="0">
                             <div class="range-labels">
                                 <span>Closed (0°)</span>
-                                <span>Open (90°)</span>
+                                <span>Open (180°)</span>
                             </div>
                         </div>
                         <div class="gripper-buttons">
@@ -967,9 +967,9 @@
             });
             
             document.getElementById('openGripper').addEventListener('click', function() {
-                gripperSlider.value = 90;
-                currentAngles.gripper = 90;
-                gripperAngleDisplay.textContent = '90°';
+                gripperSlider.value = 180;
+                currentAngles.gripper = 180;
+                gripperAngleDisplay.textContent = '180°';
                 updateGripperVisualization();
                 sendMotorData();
                 
