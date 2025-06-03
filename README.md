@@ -4,6 +4,8 @@
 
 ![Robotic Arm Model](./robot.png)
 
+> 🛠️ **You can build this entire 5-axis robotic arm setup for under ₹3000** in a highly effective and comprehensive way — ideal for students, hobbyists, and budget-conscious developers.
+
 ---
 
 ## ✨ Features
@@ -42,6 +44,7 @@
 | Breadboard       | For connections               | [Buy from Robu.in](https://robu.in/product/170-pts-mini-breadboard-syb-170-white/) |
 | Jumper Wires     | Male-to-male                  | [Buy from Robu.in](https://robu.in/product/bread-board-jumper-wire-20-cm-x-20-male-to-male/) |
 | Power Supply     | 5V external source for servos | [Buy from Robu.in](https://robu.in/product/orange-5v-2a-power-adapter-with-dc-plug-bis-approved/)  |
+| 3D - Printed Robotic Arm     | 5 - Axis Robotic Arm | [Buy from amazon.com](https://www.amazon.in/Techno-Tirupati-Robotic-Freedom-printed-plastic/dp/B08Y7JZY99/ref=sr_1_2?crid=1X4YIX1H1F088&dib=eyJ2IjoiMSJ9.Vcc7LLaea03BMeGhWVMGryjfyPb23v56_K1Vgj98gzpGYOJrGtYAr7DU9_vsxhryF7B7PcQESobmpSqO2iaPuz5IMTKX0QS5TOlLCwTVbTfUTu0RfQZOCn1eqhlDMQ26nNqP2vtIzaABO57jrHyxHqylergR2qOmaiW2W6SPUv344z73mwlCmq1DWQGPaI8USlhLRRQ2jnV3DmMbM15prCTXn13Nz-UrcuAeR_YdvNsqJh-SROvLRWUfSyeJ978LSj7YG5CqHi8RxePCb9oJwEo0fzX340sbe2FaZHhxqY0.EJpvIwqG13xZPI8rYlTHgQ8OheVIhGOkcJCg5rCN9bM&dib_tag=se&keywords=5%2Baxis%2Brobotic%2Barm&qid=1748954639&sprefix=5%2Baxis%2Brobotic%2Barm%2Caps%2C279&sr=8-2&th=1)  |
 
 ---
 
