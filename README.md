@@ -1,38 +1,141 @@
-# 🤖 Panchāstra — 5-Axis Robotic Arm Controller
+# 🤖 Panchāstra – 5-Axis Robotic Arm Controller
 
-**Panchāstra** is a powerful and elegant web-based interface for controlling a 5-axis robotic arm. Designed for intuitive use and visually striking interaction, this controller allows users to manage each motor joint, perform inverse kinematics, visualize real-time arm motion, and orchestrate complex movement sequences with ease.
+**Panchāstra** is an open-source, web-based interface for controlling a 5-axis robotic arm. It features intuitive controls, inverse kinematics, 3D visualization, and motion sequence handling — all from your browser!
 
-![Panchastra Interface Screenshot](robot.png)
-
----
-
-## 🚀 Features
-
-- 🎮 **Interactive UI** with sliders and buttons to control base, shoulder, elbow, wrist, and gripper
-- 🧠 **Inverse Kinematics** to move the arm to 3D target positions via input or visualization picking
-- 🔄 **360° Visualization** powered by `Three.js` with smooth camera rotation
-- 📹 **Motion Sequences**: Record, play, save, and load arm motion sequences
-- 🔌 **COM Port Integration**: Simulated and real serial port support (via Web Serial API)
-- 🛑 **Emergency Stop** with a single key press (`E`)
-- 🧭 **Real-Time Feedback** of the end effector's 3D coordinates
-- 💡 **Built-in Help Dialog** for user guidance
+![Robotic Arm Model](./robot.png)
 
 ---
 
-## 🧰 Technologies Used
+## ✨ Features
 
-- **HTML5 / CSS3** – Modern responsive layout with Orbitron-styled futuristic theme
-- **JavaScript (ES6+)** – Core logic and interactivity
-- **Three.js** – 3D visualization of the robotic arm
-- **dat.GUI** – Optional developer UI for debugging or controlling IK
-- **Web Serial API** – Hardware-level communication (if available)
+- 🎮 **Manual Motor Control** – Control Base, Shoulder, Elbow, Wrist (Pitch & Roll), and Gripper with sliders
+- 🧠 **Inverse Kinematics** – Move the arm to a specified XYZ coordinate
+- 🎥 **Live 3D Visualization** – See the arm animate in real-time using [Three.js](https://threejs.org)
+- 💾 **Motion Sequencing** – Record, play, save, and load custom movements
+- 🔌 **Web Serial Communication** – Interface directly with Arduino through USB
+- 🌍 **Cross-Platform UI** – Runs on any modern browser, desktop or mobile
 
 ---
 
-## 📦 Getting Started
+## 🧰 Hardware Setup
 
-### 1. Clone the Repository
+- ✅ Arduino Uno (or compatible)
+- ✅ 6x Servo Motors (5 for joints + 1 for gripper)
+- ✅ Breadboard + Jumper Wires
+- ✅ External Power Supply (for servo stability)
+- ✅ USB cable for Arduino
 
-```bash
-git clone https://github.com/yourusername/panchastra.git
-cd panchastra
+---
+
+## 🖼️ Visual Aids
+
+### Mechanical Layout
+
+![Robotic Arm Labelled](./Model%20Diagram.jpg)
+
+### Wiring Diagram
+
+![Circuit](./Circuit%20Diagram.jpg)
+
+| Arduino Pin | Function              |
+|-------------|-----------------------|
+| D3          | Base Rotation         |
+| D5          | Shoulder Joint        |
+| D6          | Elbow Joint           |
+| D9          | Wrist Roll            |
+| D10         | Wrist Pitch           |
+| D11         | Gripper               |
+
+---
+
+## 💻 Software Requirements
+
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Chrome or Web Serial API-compatible browser
+
+---
+
+## 🚀 Getting Started
+
+### 1. Upload Firmware
+
+- Use `Robota.ino` for basic control
+- Use `IK_Robota.ino` for inverse kinematics control
+- Upload using Arduino IDE
+
+### 2. Open Web Interface
+
+- Open `index.html` in a supported browser (Chrome preferred)
+- Select the COM port and connect to begin controlling the arm
+
+---
+
+## 🕹️ Controls
+
+### 🔧 Manual Mode
+- Adjust each joint angle via sliders
+- Open/Close gripper using slider or buttons
+
+### 📐 Inverse Kinematics
+- Input `X`, `Y`, `Z` target coordinates
+- Or click inside the 3D view to pick a target
+- Click “Move to Position” to execute IK
+
+### 🔁 Motion Sequences
+- Record current pose with “Record Position”
+- Playback with “Play Sequence”
+- Save and load sequences (JSON format)
+- Use `E` key anytime to reset to a safe position
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Key / Combo   | Function             |
+|---------------|----------------------|
+| `Space`       | Toggle record mode   |
+| `Ctrl + S`    | Save sequence        |
+| `Ctrl + L`    | Load sequence        |
+| `E`           | Emergency stop       |
+
+---
+
+## 📦 Files
+
+| File                | Description                           |
+|---------------------|---------------------------------------|
+| `index.html`        | Web interface for arm control         |
+| `Robota.ino`        | Basic motor control sketch            |
+| `IK_Robota.ino`     | Inverse kinematics control sketch     |
+| `Model Diagram.jpg` | 3D model layout                       |
+| `Circuit Diagram.jpg` | Servo wiring diagram               |
+
+---
+
+## 🧱 3D Printable STL Files
+
+You can download the STL files for the robotic arm from the following link:
+
+👉 **[Download STL from Cults3D](https://cults3d.com/en/3d-model/various/arduino-based-robot-arm-howtomechatronics)**
+
+**Credits**: 3D model designed by [How to Mechatronics](https://howtomechatronics.com/) – all mechanical design credit goes to them.
+
+---
+
+## 🙌 Contributing
+
+This project is completely **open-source**. Feel free to fork, modify, and contribute:
+
+- 🔧 Add new features (Bluetooth, camera tracking, etc.)
+- 🧠 Improve inverse kinematics or motion logic
+- 🎨 Refine UI or 3D interaction
+
+---
+
+## 🛡 License
+
+This project is open-source and free to use for learning, hobby, and educational purposes. No formal license is applied.
+
+---
+
+Built with 💙 for roboticists, tinkerers, and makers by **Gampa Sai Sasivardhan**
