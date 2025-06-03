@@ -103,6 +103,8 @@ This project is a perfect portfolio addition for:
 - Adjust each joint angle via sliders
 - Open/Close gripper using slider or buttons
 - Manual Control Demo
+  
+https://github.com/user-attachments/assets/8d37ac0d-e839-4adc-8a6c-4274876b2928
 
 ### 📐 Inverse Kinematics
 - Input `X`, `Y`, `Z` target coordinates
@@ -110,12 +112,16 @@ This project is a perfect portfolio addition for:
 - Click “Move to Position” to execute IK
 - Inverse Kinematics Demo
 
+https://github.com/user-attachments/assets/08260f84-7602-4a2d-ad2f-77704b612251
+
 ### 🔁 Motion Sequences
 - Record current pose with “Record Position”
 - Playback with “Play Sequence”
 - Save and load sequences (JSON format)
 - Use `E` key anytime to reset to a safe position
 - Motion Sequence Demo
+
+https://github.com/user-attachments/assets/bb356125-c2f4-495b-a370-4d5c53f985e3
 
 ---
 
