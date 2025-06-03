@@ -17,18 +17,6 @@
 
 ---
 
-## 🎯 Ideal For
-
-This project is a perfect portfolio addition for:
-
-- 🤖 **Robotics Engineers** – Showcases servo control, kinematics, and real-world interfacing
-- 🌐 **Web Developers** – Demonstrates real-time 3D rendering, UI/UX design, Web Serial API
-- 🐍 **Python Developers** – Can extend using Python scripts, ROS bridges, or computer vision pipelines
-
-**💡 Use it to boost your resume, impress recruiters, or as a practical project for university, hackathons, or job applications.**
-
----
-
 ## 📊 Comparison with Other Robotic Arm Controllers
 
 | Feature / Tool            | Panchāstra 🌟      | Niryo Studio        | uArm Studio         | MyCobot Web         | ROS + Web Interface    |
@@ -168,6 +156,18 @@ This project is completely **open-source**. Feel free to fork, modify, and contr
 - 🔧 Add new features (Bluetooth, camera tracking, etc.)
 - 🧠 Improve inverse kinematics or motion logic
 - 🎨 Refine UI or 3D interaction
+
+---
+
+## 🎯 Ideal For
+
+This project is a perfect portfolio addition for:
+
+- 🤖 **Robotics Engineers** – Showcases servo control, kinematics, and real-world interfacing
+- 🌐 **Web Developers** – Demonstrates real-time 3D rendering, UI/UX design, Web Serial API
+- 🐍 **Python Developers** – Can extend using Python scripts, ROS bridges, or computer vision pipelines
+
+**💡 Use it to boost your resume, impress recruiters, or as a practical project for university, hackathons, or job applications.**
 
 ---
 
