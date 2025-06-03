@@ -17,6 +17,33 @@
 
 ---
 
+## 🎯 Ideal For
+
+This project is a perfect portfolio addition for:
+
+- 🤖 **Robotics Engineers** – Showcases servo control, kinematics, and real-world interfacing
+- 🌐 **Web Developers** – Demonstrates real-time 3D rendering, UI/UX design, Web Serial API
+- 🐍 **Python Developers** – Can extend using Python scripts, ROS bridges, or computer vision pipelines
+
+**💡 Use it to boost your resume, impress recruiters, or as a practical project for university, hackathons, or job applications.**
+
+---
+
+## 📊 Comparison with Other Robotic Arm Controllers
+
+| Feature / Tool            | Panchāstra 🌟      | Niryo Studio        | uArm Studio         | MyCobot Web         | ROS + Web Interface    |
+|---------------------------|-------------------|---------------------|---------------------|---------------------|------------------------|
+| **Open Source**           | ✅ Yes             | ❌ No               | ❌ No               | ❌ Limited          | ✅ Yes (but complex)   |
+| **Web-Based UI**          | ✅ Fully Browser   | ❌ Desktop App      | ❌ Desktop App      | ✅ Partial           | ⚠️ Needs setup         |
+| **Hardware Agnostic**     | ✅ Arduino + Servos| ❌ Niryo Only       | ❌ uArm Only        | ❌ MyCobot Only      | ✅ Customizable         |
+| **3D Visualization**      | ✅ Three.js        | ✅ Basic             | ✅ Limited          | ✅ Yes               | ✅ Possible with effort |
+| **Inverse Kinematics**    | ✅ Built-in        | ✅ Yes              | ❌ No               | ✅ Yes               | ✅ Possible             |
+| **Motion Sequencing**     | ✅ Full Support    | ✅ Yes              | ✅ Yes              | ✅ Yes               | ✅ With scripting       |
+| **Ease of Use**           | 🌟 Very Easy       | Moderate            | Moderate            | Moderate            | 🛠️ Developer-level     |
+| **License Cost**          | Free & Open       | Paid Hardware       | Paid Hardware       | Paid Hardware       | Free & Open            |
+
+---
+
 ## 🧰 Hardware Setup
 
 - ✅ Arduino Uno (or compatible)
