@@ -46,11 +46,15 @@ This project is a perfect portfolio addition for:
 
 ## 🧰 Hardware Setup
 
-- ✅ Arduino Uno (or compatible)
-- ✅ 6x Servo Motors (5 for joints + 1 for gripper)
-- ✅ Breadboard + Jumper Wires
-- ✅ External Power Supply (for servo stability)
-- ✅ USB cable for Arduino
+| Component        | Description                  | Buy Link                                                   |
+|------------------|------------------------------|-------------------------------------------------------------|
+| Arduino Uno      | Microcontroller Board         | [Buy from Robu.in](https://robu.in/product/arduino-uno-r3-smd-compatible-board/) |
+| MG996R Servo     | High Torque Servo (joints)    | [Buy from Robu.in](https://robu.in/product/mg996r-torque-metal-gear-servo-motor/) |
+| SG90 Servo       | Micro Servo (gripper/rotation)| [Buy from Robu.in](https://robu.in/product/sg90-mini-servo-motor-9g/) |
+| Breadboard       | For connections               | [Buy from Robu.in](https://robu.in/product/mb-102-breadboard-830-points-solderless/) |
+| Jumper Wires     | Male-to-male                  | [Buy from Robu.in](https://robu.in/product/40-pin-dupont-cable-male-to-male/) |
+| Power Supply     | 5V external source for servos | Recommended 5V 2A+ regulated adapter                        |
+| USB Cable        | For Arduino connection        | Standard USB Type-B                                        |
 
 ---
 
