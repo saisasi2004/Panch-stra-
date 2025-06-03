@@ -1,6 +1,6 @@
 # 🤖 Panchāstra – 5-Axis Robotic Arm Controller
 
-**Panchāstra** is an open-source, web-based interface for controlling a 5-axis robotic arm. It features intuitive controls, inverse kinematics, 3D visualization, and motion sequence handling — all from your browser!
+[Panchāstra](https://saisasi2004.github.io/Panchastra/) is an open-source, web-based interface for controlling a 5-axis robotic arm. It features intuitive controls, inverse kinematics, 3D visualization, and motion sequence handling — all from your browser!
 
 ![Robotic Arm Model](./robot.png)
 
@@ -95,7 +95,7 @@ This project is a perfect portfolio addition for:
 
 ### 2. Open Web Interface
 
-- Open `index.html` in a supported browser (Chrome preferred)
+- Open [Panchāstra](https://saisasi2004.github.io/Panchastra/) in a supported browser (Chrome preferred)
 - Select the COM port and connect to begin controlling the arm
 
 ---
