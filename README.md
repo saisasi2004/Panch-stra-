@@ -4,7 +4,7 @@
 
 ![Robotic Arm Model](./robot.png)
 
-> 🛠️ **You can build this entire 5-axis robotic arm setup for under ₹3000** in a highly effective and comprehensive way — ideal for students, hobbyists, and budget-conscious developers.
+> 🎯 An end-to-end robotic arm project for under ₹3000. Affordable, intuitive, and beginner-friendly — no better way to get into robotics!
 
 ---
 
