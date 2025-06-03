@@ -102,7 +102,7 @@ This project is a perfect portfolio addition for:
 ### 🔧 Manual Mode
 - Adjust each joint angle via sliders
 - Open/Close gripper using slider or buttons
-- ##🔧 Manual Control Demo
+- ## 🔧 Manual Control Demo
 
 ### 📐 Inverse Kinematics
 - Input `X`, `Y`, `Z` target coordinates
