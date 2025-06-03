@@ -102,17 +102,20 @@ This project is a perfect portfolio addition for:
 ### 🔧 Manual Mode
 - Adjust each joint angle via sliders
 - Open/Close gripper using slider or buttons
+- ##🔧 Manual Control Demo
 
 ### 📐 Inverse Kinematics
 - Input `X`, `Y`, `Z` target coordinates
 - Or click inside the 3D view to pick a target
 - Click “Move to Position” to execute IK
+- ## 📐 Inverse Kinematics Demo
 
 ### 🔁 Motion Sequences
 - Record current pose with “Record Position”
 - Playback with “Play Sequence”
 - Save and load sequences (JSON format)
 - Use `E` key anytime to reset to a safe position
+- ## 🔁 Motion Sequence Demo
 
 ---
 
