@@ -48,13 +48,12 @@ This project is a perfect portfolio addition for:
 
 | Component        | Description                  | Buy Link                                                   |
 |------------------|------------------------------|-------------------------------------------------------------|
-| Arduino Uno      | Microcontroller Board         | [Buy from Robu.in](https://robu.in/product/arduino-uno-r3-smd-compatible-board/) |
-| MG996R Servo     | High Torque Servo (joints)    | [Buy from Robu.in](https://robu.in/product/mg996r-torque-metal-gear-servo-motor/) |
-| SG90 Servo       | Micro Servo (gripper/rotation)| [Buy from Robu.in](https://robu.in/product/sg90-mini-servo-motor-9g/) |
-| Breadboard       | For connections               | [Buy from Robu.in](https://robu.in/product/mb-102-breadboard-830-points-solderless/) |
-| Jumper Wires     | Male-to-male                  | [Buy from Robu.in](https://robu.in/product/40-pin-dupont-cable-male-to-male/) |
-| Power Supply     | 5V external source for servos | Recommended 5V 2A+ regulated adapter                        |
-| USB Cable        | For Arduino connection        | Standard USB Type-B                                        |
+| Arduino Uno      | Microcontroller Board         | [Buy from Robu.in](https://robu.in/product/arduino-uno-r3/) |
+| MG996R Servo     | High Torque Servo (joints)    | [Buy from Robu.in](https://robu.in/product/towardpro-mg996r-digital-high-torque-servo-motor/) |
+| SG90 Servo       | Micro Servo (gripper/rotation)| [Buy from Robu.in](https://robu.in/product/towerpro-sg90-9gm-1-2kg-180-degree-rotation-servo-motor-good-quality/) |
+| Breadboard       | For connections               | [Buy from Robu.in](https://robu.in/product/170-pts-mini-breadboard-syb-170-white/) |
+| Jumper Wires     | Male-to-male                  | [Buy from Robu.in](https://robu.in/product/bread-board-jumper-wire-20-cm-x-20-male-to-male/) |
+| Power Supply     | 5V external source for servos | [Buy from Robu.in](https://robu.in/product/orange-5v-2a-power-adapter-with-dc-plug-bis-approved/)  |
 
 ---
 
